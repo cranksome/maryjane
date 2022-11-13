@@ -8,23 +8,23 @@
 
 <style>
 .grid-container {
-  display: inline-grid;
-  grid-template-columns: min-content auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 10px;
 }
-.grid-container2 {
+.grid-title {
   display: grid;
-  grid-template-columns: fit-content(50%);
+  grid-template-columns: auto;
   padding: 10px;
 }
 .grid-allgemein {
   display: grid;
-  grid-template-columns: fit-content(50%) fit-content(50%);
+  grid-template-columns: auto auto;
   padding: 10px;
 }
 .grid-punkte {
   display: grid;
-  grid-template-columns: fit-content(50%) fit-content(50%);
+  grid-template-columns: auto auto;
   padding: 10px;
 }
 
@@ -35,6 +35,7 @@
   font-size: 1vw;
   font-family: Arial;
   text-align: center;
+  word-wrap: break-word;
 }
 .grid-header {
   background-color: #B30545;
@@ -42,7 +43,7 @@
   padding: 20px;
   font-size: 50px;
   font-family: Arial;
-color: white;
+  color: white;
   text-align: center;
 }
 .grid-subheader {
@@ -51,7 +52,7 @@ color: white;
   padding: 20px;
   font-size: 30px;
   font-family: Arial;
-color: white;
+  color: white;
   text-align: center;
 }
 </style>
@@ -59,7 +60,7 @@ color: white;
 <body>
 
 
-<div class="grid-container2">
+<div class="grid-title">
   <div class="grid-header">Allgemeine Commands</div>
 </div>
 
@@ -90,7 +91,7 @@ color: white;
 
   
 </div>
-<div class="grid-container2">
+<div class="grid-title">
   <div class="grid-header">Punkte</div>
 </div>
 
@@ -118,7 +119,7 @@ color: white;
   
 </div>
 
-<div class="grid-container2">
+<div class="grid-title">
   <div class="grid-header">Punkte Shop</div>
 </div>
 
