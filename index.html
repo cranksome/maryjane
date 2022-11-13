@@ -6,146 +6,152 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-.grid-title {
-  display: grid;
-  grid-template-columns: auto;
-  padding: 10px;
-}
-.grid-allgemein {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
-}
-.grid-punkte {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
-}
+  <style>
+  .grid-content {
+    margin: auto;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 10px;
+    width: 850px;
+  }
+  .grid-title {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    padding: 10px;
+    width: 850px;
+  }
+  .grid-allgemein {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    padding: 10px;
+    width: 850px;
+  }
+  .grid-punkte {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    padding: 10px;
+    width: 850px;
+  }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 1vw;
-  font-family: Arial;
-  text-align: center;
-  word-wrap: break-word;
-}
-.grid-header {
-  background-color: #B30545;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 50px;
-  font-family: Arial;
-  color: white;
-  text-align: center;
-}
-.grid-subheader {
-  background-color: #f5005b;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  font-family: Arial;
-  color: white;
-  text-align: center;
-}
-</style>
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 1vw;
+    font-family: Arial;
+    text-align: center;
+    word-wrap: break-word;
+    width: fit-content(20em);
+  }
+  .grid-header {
+    background-color: #B30545;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    
+    width: 850px;
+  }
+  .grid-subheader {
+    background-color: #f5005b;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+  }
+  </style>
 </head>
 <body>
 
+  <div class="grid-content">
+    <div class="grid-title">
+      <div class="grid-header">Allgemeine Commands</div>
+    </div>
 
-<div class="grid-title">
-  <div class="grid-header">Allgemeine Commands</div>
-</div>
-
-<div class="grid-allgemein">
-  <div class="grid-subheader">Command</div>
-  <div class="grid-subheader">Beschreibung</div>
-  
-  <div class="grid-item">!apex</div>
-  <div class="grid-item">Mein Origin-name für Freundesanfragen</div>
-  
-  <div class="grid-item">!dc</div>
-  <div class="grid-item">Discord Link</div>
-
-
-  <div class="grid-item">!discord</div>
-  <div class="grid-item">Discord Link</div>
+    <div class="grid-allgemein">
+      <div class="grid-subheader">Command</div>
+      <div class="grid-subheader">Beschreibung</div>
+      
+      <div class="grid-item">!apex</div>
+      <div class="grid-item">Mein Origin-name für Freundesanfragen</div>
+      
+      <div class="grid-item">!dc</div>
+      <div class="grid-item">Discord Link</div>
 
 
-  <div class="grid-item">!insta</div>
-  <div class="grid-item">Mein Insta</div>
-
-  <div class="grid-item">!love @(user)</div>
-  <div class="grid-item">Wie viel liebe herscht zwischen dir und einem User deiner Wahl?</div>
-
-  <div class="grid-item">!rentner</div>
-  <div class="grid-item">Wie viel Rentner steckt in dir?</div>
+      <div class="grid-item">!discord</div>
+      <div class="grid-item">Discord Link</div>
 
 
-  
-</div>
-<div class="grid-title">
-  <div class="grid-header">Punkte</div>
-</div>
+      <div class="grid-item">!insta</div>
+      <div class="grid-item">Mein Insta</div>
 
-<div class="grid-punkte">
-  <div class="grid-subheader">Command</div>
-  <div class="grid-subheader">Beschreibung</div>
+      <div class="grid-item">!love @(user)</div>
+      <div class="grid-item">Wie viel liebe herscht zwischen dir und einem User deiner Wahl?</div>
 
-  
-  <div class="grid-item">!points</div>
-  <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
+      <div class="grid-item">!rentner</div>
+      <div class="grid-item">Wie viel Rentner steckt in dir?</div>
+    </div>
+    <div class="grid-title">
+      <div class="grid-header">Punkte</div>
+    </div>
 
-  
-  <div class="grid-item">!token</div>
-  <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
+    <div class="grid-punkte">
+      <div class="grid-subheader">Command</div>
+      <div class="grid-subheader">Beschreibung</div>
+
+      
+      <div class="grid-item">!points</div>
+      <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
+
+      
+      <div class="grid-item">!token</div>
+      <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
 
 
-  <div class="grid-item">!givepoints @(User)(Anzahl)</div>
-  <div class="grid-item">Gebe Punkte an einen anderen User.</div>
+      <div class="grid-item">!givepoints @(User)(Anzahl)</div>
+      <div class="grid-item">Gebe Punkte an einen anderen User.</div>
 
 
-  <div class="grid-item">!top points</div>
-  <div class="grid-item">Zeigt die Punkte-Bestenliste an.</div>
+      <div class="grid-item">!top points</div>
+      <div class="grid-item">Zeigt die Punkte-Bestenliste an.</div>
+    </div>
 
+    <div class="grid-title">
+      <div class="grid-header">Punkte Shop</div>
+    </div>
 
-  
-</div>
+    <div class="grid-container">
+      <div class="grid-subheader">Command</div>
+      <div class="grid-subheader">Beschreibung</div>
+      <div class="grid-subheader">Kosten</div>
+      
+      <div class="grid-item">!legend</div>
+      <div class="grid-item">Lasse den Zufall entscheiden welche Legende ich spielen soll.</div>
+      <div class="grid-item">10000 Blondi Token</div>
+      
+      <div class="grid-item">!firstweapon</div>
+      <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
+      <div class="grid-item">8000 Blondi Token</div>
 
-<div class="grid-title">
-  <div class="grid-header">Punkte Shop</div>
-</div>
+      <div class="grid-item">!firstweapon</div>
+      <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
+      <div class="grid-item">8000 Blondi Token</div>
 
-<div class="grid-container">
-  <div class="grid-subheader">Command</div>
-  <div class="grid-subheader">Beschreibung</div>
-  <div class="grid-subheader">Kosten</div>
-  
-  <div class="grid-item">!legend</div>
-  <div class="grid-item">Lasse den Zufall entscheiden welche Legende ich spielen soll.</div>
-  <div class="grid-item">10000 Blondi Token</div>
-  
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
-
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
-
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
-
-  
-</div>
+      <div class="grid-item">!firstweapon</div>
+      <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
+      <div class="grid-item">8000 Blondi Token</div>
+    </div>
+  </div>
 
 </body>
 </html>
