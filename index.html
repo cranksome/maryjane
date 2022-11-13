@@ -12,6 +12,17 @@
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+.grid-allgemein {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-punkte {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -46,26 +57,30 @@ color: white;
   <div class="grid-header">Allgemeine Commands</div>
 </div>
 
-<div class="grid-container">
+<div class="grid-allgemein">
   <div class="grid-subheader">Command</div>
   <div class="grid-subheader">Beschreibung</div>
-  <div class="grid-subheader">Kosten</div>
   
-  <div class="grid-item">!legend</div>
-  <div class="grid-item">Lasse den Zufall entscheiden welche Legende ich spielen soll.</div>
-  <div class="grid-item">10000 Blondi Token</div>
+  <div class="grid-item">!apex</div>
+  <div class="grid-item">Mein Origin-name für Freundesanfragen</div>
   
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
+  <div class="grid-item">!dc</div>
+  <div class="grid-item">Discord Link</div>
 
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
 
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
+  <div class="grid-item">!discord</div>
+  <div class="grid-item">Discord Link</div>
+
+
+  <div class="grid-item">!insta</div>
+  <div class="grid-item">Mein Insta</div>
+
+  <div class="grid-item">!love @(user)</div>
+  <div class="grid-item">Wie viel liebe herscht zwischen dir und einem User deiner Wahl?</div>
+
+  <div class="grid-item">!rentner</div>
+  <div class="grid-item">Wie viel Rentner steckt in dir?</div>
+
 
   
 </div>
@@ -73,26 +88,26 @@ color: white;
   <div class="grid-header">Punkte</div>
 </div>
 
-<div class="grid-container">
+<div class="grid-punkte">
   <div class="grid-subheader">Command</div>
   <div class="grid-subheader">Beschreibung</div>
-  <div class="grid-subheader">Kosten</div>
-  
-  <div class="grid-item">!legend</div>
-  <div class="grid-item">Lasse den Zufall entscheiden welche Legende ich spielen soll.</div>
-  <div class="grid-item">10000 Blondi Token</div>
-  
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
 
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
+  
+  <div class="grid-item">!points</div>
+  <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
 
-  <div class="grid-item">!firstweapon</div>
-  <div class="grid-item">Die Waffe die ich als erstes finde muss ich bis zum Ende der Runde behalten.</div>
-  <div class="grid-item">8000 Blondi Token</div>
+  
+  <div class="grid-item">!token</div>
+  <div class="grid-item">Zeigt an wie viele Blondi Tokens du besitzt.</div>
+
+
+  <div class="grid-item">!givepoints @(User)(Anzahl)</div>
+  <div class="grid-item">Gebe Punkte an einen anderen User.</div>
+
+
+  <div class="grid-item">!top points</div>
+  <div class="grid-item">Zeigt die Punkte-Bestenliste an.</div>
+
 
   
 </div>
@@ -127,8 +142,3 @@ color: white;
 
 </body>
 </html>
-
-
-
-
-
