@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  
 <head>
 <title>Its_Maryjane Commands</title>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
+
 
   <style>
-  .grid-content {
-    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a); 
-    height: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
+  html, body {
+   margin:0;
+   height:100%;
   }
-  .grid-container {
+
+  .bg-container {
+   margin:0;
+   background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a); 
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  }
+
+
+
+  .grid-content {
+    margin: auto;
+  }
+
+  .grid-shop {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: auto;
@@ -26,9 +41,15 @@
     display: grid;
     grid-template-columns: auto;
     margin: auto;
-    padding: 10px;
     width: 850px;
   }
+  .cat {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    width: 850px;
+  }
+
   .grid-allgemein {
     display: grid;
     grid-template-columns: auto auto;
@@ -48,7 +69,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 1.2vw;
+    font-size: 22px;
     font-family: Arial;
     text-align: center;
     word-wrap: break-word;
@@ -64,6 +85,16 @@
     
     width: 850px;
   }
+  .grid-cat {
+    background-color: #b3054560;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    
+    width: 850px;
+  }
   .grid-subheader {
     background-color: #f5005b;
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -73,9 +104,12 @@
     color: white;
     text-align: center;
   }
+
+
   </style>
 </head>
 <body>
+  <div class="bg-container">
 
   <div class="grid-content">
     <div class="grid-title">
@@ -134,8 +168,11 @@
     <div class="grid-title">
       <div class="grid-header">Punkte Shop</div>
     </div>
+    <div class="cat">
+      <div class="grid-cat">Apex Legends</div>
+    </div>
 
-    <div class="grid-container">
+    <div class="grid-shop">
       <div class="grid-subheader">Command</div>
       <div class="grid-subheader">Beschreibung</div>
       <div class="grid-subheader">Kosten</div>
@@ -157,11 +194,7 @@
       <div class="grid-item">5000 Blondi Token</div>
     </div>
   </div>
+  </div>
 
 </body>
 </html>
-
-
-
-
-
